@@ -1,0 +1,14 @@
+{
+  "name": "claw-memory-sync",
+  "version": "0.1.0",
+  "description": "Periodic memory synchronization between OpenClaw agents (md files, LanceDB, Voice Bot)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "sync": "node src/index.js",
+    "sync:dry": "node src/index.js --dry-run"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true
+}
